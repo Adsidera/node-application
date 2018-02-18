@@ -2,22 +2,22 @@
   "name": "conduit-node",
   "version": "1.0.0",
   "description": "conduit on node",
+  "license": "ISC",
   "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gothinkster/productionready-node-api.git"
+  },
   "scripts": {
     "start": "node ./app.js",
     "dev": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gothinkster/productionready-node-api.git"
-  },
-  "license": "ISC",
   "dependencies": {
     "body-parser": "1.15.0",
     "cors": "2.7.1",
     "dotenv": "2.0.0",
-    "ejs": "2.4.1",
+    "ejs": "2.5.5",
     "errorhandler": "1.4.3",
     "express": "4.13.4",
     "express-jwt": "3.3.0",
