@@ -2,4 +2,4 @@
 
 ### A Mean Stack approach
 
-Node.js, Express.js, Mongoose for MongoDb
+Node.js, Express.js, Mongoose
